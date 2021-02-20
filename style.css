@@ -80,12 +80,31 @@ img {
 .images {
     display: flex;
     justify-content: center;
-    
     width: 100%;
-
-    
 }
-/*THIS IS THE FOOTER AREA STYLING*/
+article ul {
+    background-color: rgb(36, 34, 34);
+    margin-left: 300px;
+    margin-right: 300px;
+}
+.u-list {
+    color: white;
+    text-align: center;
+    list-style-position: inside;
+}
+article ol {
+    background-color: rgb(36, 34, 34);
+    margin-left: 300px;
+    margin-right: 300px;
+}
+.o-list {
+    color: white;
+    text-align: center;
+    list-style-position: inside;
+}
+    
+    
+    /*THIS IS THE FOOTER AREA STYLING*/
 
 footer {
     clear: both;
