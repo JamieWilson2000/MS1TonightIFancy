@@ -81,6 +81,7 @@ img {
     display: flex;
     justify-content: center;
     width: 100%;
+    margin-bottom: 10px;
 }
 article ul {
     background-color: rgb(36, 34, 34);
