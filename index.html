@@ -15,7 +15,7 @@
     <div class="wrapper">
         <!--HEADLINE BANNER-->
         <div class="banner">
-            <h1>Tonight I fancy.....</h1>
+            <h1>Tonight I fancy..</h1>
         </div>
 
         <div id="back-image">
@@ -30,48 +30,57 @@
                 <img class="card-img-top" src="images/curry.png" alt="chicken">
                 <div class="card-body">
                     <p class="card-text">Today's chicken option</p>
-                    <a href="chicken.html" class="btn btn-primary">Spicy Chicken Curry!</a>
+                    <a href="chicken.html" class="btn btn-primary"><span class="text">Spicy Chicken Curry!</span></a>
                 </div>
             </div>
             <div class="card">
                 <img class="card-img-top" src="images/lamb.png" alt="lamb">
                 <div class="card-body">
                     <p class="card-text">Today's lamb option</p>
-                    <a href="lamb.html" class="btn btn-primary">Tasty Lamb with pesto!</a>
+                    <a href="lamb.html" class="btn btn-primary"><span class="text">Tasty Lamb with pesto!</span></a>
                 </div>
             </div>
             <div class="card">
                 <img class="card-img-top" src="images/pork.png" alt="pork">
                 <div class="card-body">
                     <p class="card-text">Today's pork option</p>
-                    <a href="pork.html" class="btn btn-primary">Succulent Sticky Pork!</a>
+                    <a href="pork.html" class="btn btn-primary"><span class="text">Succulent Sticky Pork!</span></a>
                 </div>
             </div>
             <div class="card">
                 <img class="card-img-top" src="images/steak.png" alt="beef">
                 <div class="card-body">
                     <p class="card-text">Today's beef option</p>
-                    <a href="beef.html" class="btn btn-primary">Mouthwatering Steak!</a>
+                    <a href="beef.html" class="btn btn-primary"><span class="text">Mouthwatering Steak!</span></a>
                 </div>
             </div>
             <div class="card">
                 <img class="card-img-top" src="images/veggie.png" alt="veggie">
                 <div class="card-body">
                     <p class="card-text">Today's veggie option</p>
-                    <a href="vegetarian.html" class="btn btn-primary">Tasty Stuffed Shells!</a>
+                    <a href="vegetarian.html" class="btn btn-primary"><span class="text">Tasty Stuffed Shells!</span></a>
                 </div>
             </div>
-        </div>        
-               
-                
+        </div>  
+        
+        <!--DROPDOWN MENU FOR MOBILE VIEW-->
+        <div class="lgautohide">
+            <div class="dropdown show">
+            <a class="btn dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Today's menu at a glance!
+            </a>
             
-
-
-
-
-
-        <!--MAIN BODY OF TEXT-->
-            <p>Trying to think of fresh, orignal exciting ideas for meal-times for some can become a chore. 
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                <a class="dropdown-item" href="chicken.html">Chicken Curry</a>
+                <a class="dropdown-item" href="lamb.html">Lamb with Pesto</a>
+                <a class="dropdown-item" href="beef.html">Hanger Steak</a>
+                <a class="dropdown-item" href="pork.html">Sticky Pork</a>
+                <a class="dropdown-item" href="vegetarian.html">Stuffed Shells</a>
+            </div>
+            </div>
+        </div>
+             <!--MAIN BODY OF TEXT-->
+            <p>Trying to think of fresh, original exciting ideas for meal-times for some can become a chore. 
                 Even trying to think of a family favourite that everybody enjoys can leave you pulling your hair 
                 out after a while!!
                 <br><br> <span class="one-off">Well, welcome to Tonight I fancy!!</span><br><br>
@@ -116,7 +125,9 @@
 
 </footer>
 
-
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
 </body>
 
 </html>

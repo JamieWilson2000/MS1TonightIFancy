@@ -5,6 +5,9 @@ html, body {
     height: 100%;
     padding:0;
     }
+p {
+    margin-bottom: 0;
+}
     
 .wrapper {
     width: 100%;
@@ -19,6 +22,7 @@ html, body {
     width: 100%;
     font-family: Pacifico, sans-serif;
     font-size: 80px;
+    color: black;
     text-align: center;
     vertical-align: middle;
 }
@@ -44,10 +48,33 @@ html, body {
     background-color: #622525;
 }
 .card-img-top {
-    margin-left:auto;
+    margin-left: auto;
     margin-right: auto;
 }
+.text {
+    font-size: 30px;
+}
 
+.btn-primary {
+    background-color: #9c4444;
+    border: none;
+}
+ .btn{
+     width: 100%;
+     background-color: #9c4444;
+}
+.lgautohide {
+    display: none;
+}
+.dropdown-menu {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background:-webkit-linear-gradient(#9b6f6f, #d4cbcb)
+}
+.dropdown-menu a {
+    text-align: center;
+}
 .info h2 {
     background-color: #62252599; 
     color: white;
@@ -56,7 +83,7 @@ html, body {
     font-family: 'Shippori Mincho', sans-serif;
     font-size: 25px;
     line-height: 44px;
-    border-bottom: 3px solid black;
+    
 }
 .info p {
     background-color: #62252599;
@@ -75,7 +102,7 @@ html, body {
 .info a {
     font-family: Pacifico, sans-serif;
     color:black;
-    font-size:30px;
+    font-size:50px;
 }
 ingredients {
     width: 100%;
@@ -126,20 +153,20 @@ article ol {
 
 footer {
     clear: both;
-    background: black;
+    background: #622525;
     height: 60px;
     width: 100%;
-    /* margin-left: 10px; */
-    margin-right: 10px;
+    /* margin-right: 10px; */
     position: relative;
 }
 i {
     color: #a74545;
     align-items: center;
-    margin: 0 10px;
-    margin-bottom: 10px;
+    /* margin: 0 10px;
+    margin-bottom: 10px; */
 }
 nav a {
+    font-family: Pacifico, sans-serif;
     font-size: 40px;
     color: white;
 }
@@ -151,6 +178,17 @@ nav a {
 
 
 /*END OF FOOTER AREA STYLING*/
+
+@media screen and (max-width:1410px) {
+
+.autohide {
+    display:none;
+}
+.lgautohide {
+    display:block;
+}
+
+}
 
 @media screen and (max-width:500px) {
 
@@ -166,6 +204,10 @@ nav a {
 .autohide {
     display:none;
 }
+.lgautohide{
+    display:block;
+}
+
 
 .info h2 {
     font-size: 25px;
@@ -184,7 +226,7 @@ nav a {
     font-size: 35px;
 }
 .one-off {
-    font-size:26px;
+    font-size:30px;
     line-height: 40px;
 }
 article ul {
@@ -196,9 +238,13 @@ article ol {
     margin-left: 10px;
     margin-right: 10px;
 }
+nav{
+    margin-top:0;
+}
 nav a {
     font-size: 17px;
-    margin-top: 20px;
+   
+
 }
 
 }
