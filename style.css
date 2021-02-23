@@ -102,7 +102,11 @@ p {
 .info a {
     font-family: Pacifico, sans-serif;
     color: white;
+    line-height: 50px;
     font-size:50px;
+}
+a {
+    
 }
 ingredients {
     width: 100%;
