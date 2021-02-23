@@ -20,11 +20,12 @@ p {
 }
 .banner h1 {
     width: 100%;
+    padding-top: 15px;
     font-family: Pacifico, sans-serif;
     font-size: 80px;
     color: white;
     text-align: center;
-    vertical-align: middle;
+    /* vertical-align: middle; */
 }
 .top-banner {
     width:100%;
@@ -60,6 +61,7 @@ p {
 }
  .btn{
      width: 100%;
+     color: white;
      background-color: #622525;
 }
 .lgautohide {
@@ -74,6 +76,13 @@ p {
 }
 .dropdown-menu a {
     text-align: center;
+    color: black;
+}
+.dropdown-item {
+    color: white;
+}
+.black{
+    color: black;
 }
 .info h2 {
     background-color: #62252599; 
@@ -81,7 +90,7 @@ p {
     text-align: center;
     padding: 30px 30px 20px;
     font-family: 'Shippori Mincho', sans-serif;
-    font-size: 25px;
+    font-size: 40px;
     line-height: 44px;
     
 }
@@ -105,9 +114,7 @@ p {
     line-height: 50px;
     font-size:50px;
 }
-a {
-    
-}
+
 ingredients {
     width: 100%;
 }
@@ -122,22 +129,6 @@ img {
     justify-content: center;
     margin-bottom: 10px;
 }
-/* .images {
-    position: relative;
-    overflow: hidden;
-    padding-top: 56.25%;
-}
- .iframe {
-     
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 50%;
-    height: 50%;
-    border: 0;
-} */
-
-
 article ul {
     background-color: rgb(36, 34, 34);
     margin-left: 300px;
@@ -240,6 +231,25 @@ nav a {
 }
 
 }
+@media screen and (max-width:768px) {
+nav a {
+    font-size: 40px;
+}
+nav {
+    padding: 0;
+}
+.one-off {
+    font-size: 45px;
+}
+article ul {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+article ol {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+}
 
 @media screen and (max-width:500px) {
 
@@ -247,7 +257,6 @@ nav a {
     height: 100px;
     width: 100%;
 }
-
 .banner h1 {
     font-size: 45px;
     padding-top: 20px;
@@ -258,6 +267,9 @@ nav a {
 .lgautohide{
     display:block;
 }
+/* .btn {
+    color: red;
+} */
 .images {
     position: relative;
     overflow: hidden;
@@ -271,16 +283,6 @@ nav a {
     height: 100%;
     border: 0;
 }
-/* .iframe-image {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border: 0
-}  */
-
-
 .info h2 {
     font-size: 25px;
     line-height: 30px;
@@ -311,7 +313,7 @@ article ol {
     margin-right: 10px;
 }
 nav{
-    margin-top: 0;
+    padding: 0;
 }
 nav a {
     font-size: 30px;
