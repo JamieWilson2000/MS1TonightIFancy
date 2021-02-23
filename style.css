@@ -22,7 +22,7 @@ p {
     width: 100%;
     font-family: Pacifico, sans-serif;
     font-size: 80px;
-    color: black;
+    color: white;
     text-align: center;
     vertical-align: middle;
 }
@@ -39,7 +39,6 @@ p {
 .info {
     width: 100%;
 }
-
 .card {
     width: 18rem;
     margin-left:auto;
@@ -102,7 +101,7 @@ p {
 }
 .info a {
     font-family: Pacifico, sans-serif;
-    color:black;
+    color: white;
     font-size:50px;
 }
 ingredients {
@@ -113,11 +112,26 @@ img {
     max-height: 50%;
     
 } 
+
 .images {    
     display: flex;
     justify-content: center;
     margin-bottom: 10px;
 }
+/* .images {
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%;
+}
+ .iframe {
+     
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 50%;
+    border: 0;
+} */
 
 
 article ul {
@@ -158,28 +172,31 @@ footer {
     background: #622525;
     height: 60px;
     width: 100%;
-    /* margin-right: 10px; */
+   
     position: relative;
 }
-i {
-    color: #a74545;
+/* i {
+    color: white;
+    margin: 10px;
     align-items: center;
-    /* margin: 0 10px;
-    margin-bottom: 10px; */
-}
+} */
 nav a {
     font-family: Pacifico, sans-serif;
-    font-size: 40px;
+    
     color: white;
 }
   nav {
       text-align: center;
-      color: white;
+      padding-top:20px;
+      
+      /* color: white; */
   }
 
 
 
 /*END OF FOOTER AREA STYLING*/
+
+
 
 @media screen and (max-width:1410px) {
 
@@ -188,6 +205,19 @@ nav a {
 }
 .lgautohide {
     display:block;
+}
+.images {
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%;
+}
+ .iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
 }
 
 }
@@ -209,6 +239,27 @@ nav a {
 .lgautohide{
     display:block;
 }
+.images {
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%;
+}
+ .iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+/* .iframe-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0
+}  */
 
 
 .info h2 {
