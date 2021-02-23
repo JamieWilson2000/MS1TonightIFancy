@@ -148,9 +148,14 @@ article ul {
     color: white;
     text-align: center;
 }
+.u-list ul {
+    padding-top:10px;
+    padding-bottom: 10px;
+}
 .u-list li {
     font-family: 'Shippori Mincho', sans-serif;
-    padding-right: 30px;
+    line-height: 30px;
+    padding-right: 30px; 
     list-style-type: none;
 }
 article ol {
@@ -162,6 +167,14 @@ article ol {
     color: white;
     text-align: center;
     list-style-position: inside;
+}
+.o-list ol {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.o-list i {
+    padding-right: 20px;
+    color: white;
 }
 .o-list li {
     font-family: 'Shippori Mincho', sans-serif;
@@ -176,8 +189,10 @@ footer {
     background: #622525;
     height: 60px;
     width: 100%;
-   
     position: relative;
+}
+i {
+    font-size: 30px;
 }
 /* i {
     color: white;
@@ -185,13 +200,13 @@ footer {
     align-items: center;
 } */
 nav a {
-    font-family: Pacifico, sans-serif;
-    
+    font-size: 30px;
+    margin:20px;
     color: white;
 }
   nav {
-      text-align: center;
-      padding-top:20px;
+    text-align: center;
+    padding-top:10px;
       
       /* color: white; */
   }
@@ -296,13 +311,12 @@ article ol {
     margin-right: 10px;
 }
 nav{
-    margin-top:0;
+    margin-top: 0;
 }
 nav a {
-    font-size: 17px;
-   
-
+    font-size: 30px;
 }
+
 
 }
 
