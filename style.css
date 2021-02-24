@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Pacifico|Lato:300');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@600&display=swap');
 html, body {
     width: 100%;
@@ -22,7 +23,7 @@ p {
 .banner h1 {
     width: 100%;
     padding-top: 15px;
-    font-family: Pacifico, sans-serif;
+    font-family: 'Cormorant Garamond' , sans-serif;
     font-size: 6vw;
     color: white;
     text-align: center;
@@ -54,6 +55,7 @@ p {
     margin-right: auto;
 }
 .text {
+    font-family: 'Cormorant Garamond' , sans-serif;
     font-size: 30px;
 }
 
@@ -108,12 +110,12 @@ p {
     line-height: 36px;
 }
 .one-off {
-    font-family: Pacifico, sans serif;
-    font-size:36px;
+    font-family: 'Cormorant Garamond' , sans-serif;
+    font-size:45px;
     line-height: 50px;
 }
 .info a {
-    font-family: Pacifico, sans-serif;
+    font-family: 'Cormorant Garamond' , sans-serif;
     color: white;
     line-height: 50px;
     font-size:50px;
@@ -266,7 +268,7 @@ nav {
     padding: 0;
 }
 .one-off {
-    font-size: 45px;
+    font-size: 50px;
 }
 article ul {
     margin-left: 50px;
@@ -327,7 +329,7 @@ article ol {
     font-size: 35px;
 }
 .one-off {
-    font-size:30px;
+    font-size:40px;
     line-height: 40px;
 }
 article ul {
