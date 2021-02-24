@@ -4,7 +4,7 @@ html, body {
     width: 100%;
     height: 100%;
     padding:0;
-    }
+}
 p {
     margin-bottom: 0;
 }
@@ -16,19 +16,21 @@ p {
 .banner {
     width: 100%;
     height: 150px;
+    margin: 0;
     background: -webkit-linear-gradient(#622525, #775858);
 }
 .banner h1 {
     width: 100%;
     padding-top: 15px;
     font-family: Pacifico, sans-serif;
-    font-size: 80px;
+    font-size: 6vw;
     color: white;
     text-align: center;
     /* vertical-align: middle; */
 }
 .top-banner {
     width:100%;
+    
     
 }
 #back-image {
@@ -86,12 +88,14 @@ p {
 }
 .info h2 {
     background-color: #62252599; 
+    margin-bottom: 0;
     color: white;
     text-align: center;
     padding: 30px 30px 20px;
     font-family: 'Shippori Mincho', sans-serif;
-    font-size: 40px;
+    font-size: 3vw;
     line-height: 44px;
+
     
 }
 .info p {
@@ -131,8 +135,8 @@ img {
 }
 article ul {
     background-color: rgb(36, 34, 34);
-    margin-left: 300px;
-    margin-right: 300px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 .u-list {
     margin-top: 20px;
@@ -151,8 +155,8 @@ article ul {
 }
 article ol {
     background-color: rgb(36, 34, 34);
-    margin-left: 300px;
-    margin-right: 300px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 .o-list {
     color: white;
@@ -177,7 +181,7 @@ article ol {
 
 footer {
     clear: both;
-    background: #622525;
+    background: -webkit-linear-gradient(#8f7b7b,#622525);
     height: 60px;
     width: 100%;
     position: relative;
@@ -209,7 +213,9 @@ nav a {
 
 
 @media screen and (max-width:1410px) {
-
+.banner {
+    height: 125px;
+}
 .autohide {
     display:none;
 }
@@ -221,6 +227,7 @@ nav a {
     overflow: hidden;
     padding-top: 56.25%;
 }
+
  .iframe {
     position: absolute;
     top: 0;
@@ -229,9 +236,29 @@ nav a {
     height: 100%;
     border: 0;
 }
+article ul {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+article ol {
+    margin-left: 50px;
+    margin-right: 50px;
+}
 
 }
 @media screen and (max-width:768px) {
+
+.banner {
+    height:100px;
+}
+.banner h1 {
+    font-size: 45px;
+    padding-top: 20px;
+}
+.info h2 {
+    font-size: 25px;
+    line-height: 30px;
+}
 nav a {
     font-size: 40px;
 }
@@ -251,7 +278,7 @@ article ol {
 }
 }
 
-@media screen and (max-width:500px) {
+@media screen and (max-width:560px) {
 
 .banner {
     height: 100px;
@@ -260,7 +287,7 @@ article ol {
 .banner h1 {
     font-size: 45px;
     padding-top: 20px;
-}
+} 
 .autohide {
     display:none;
 }
