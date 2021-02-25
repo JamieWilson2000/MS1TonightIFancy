@@ -26,6 +26,7 @@ p {
     font-family: 'Cormorant Garamond' , sans-serif;
     font-size: 6vw;
     color: #f5f7dc;
+    text-shadow: 2px 2px 5px black;
     text-align: center;
     /* vertical-align: middle; */
 }
@@ -54,9 +55,13 @@ p {
     margin-left: auto;
     margin-right: auto;
 }
+.card-text {
+    text-shadow: 2px 2px 5px black;
+}
 .text {
     font-family: 'Cormorant Garamond' , sans-serif;
     font-size: 2vw;
+    text-shadow: 2px 2px 5px black;
 }
 
 .btn-primary {
@@ -81,7 +86,7 @@ p {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-    background:-webkit-linear-gradient(#9b6f6f, #d4cbcb)
+    background:-webkit-linear-gradient(#622525, #775858);
 }
 .dropdown-menu a {
     text-align: center;
@@ -97,6 +102,7 @@ p {
     background-color: #62252599; 
     margin-bottom: 0;
     color: #f5f7dc;
+    text-shadow: 2px 2px 5px black;
     text-align: center;
     padding: 30px 30px 20px;
     font-family: 'Shippori Mincho', sans-serif;
@@ -108,6 +114,7 @@ p {
 .info p {
     background-color: #62252599;
     color: #f5f7dc;
+    text-shadow: 2px 2px 5px black;
     padding: 0px 30px 20px;
     text-align: center;
     font-family:'Shippori Mincho', sans-serif;
@@ -116,7 +123,7 @@ p {
 }
 .highlight {
     text-shadow: 2px 2px 5px red;
-    background-color: #622525;
+    background-color: black;
     border-radius: 50%;
 }
 .one-off {
@@ -146,7 +153,7 @@ img {
     margin-bottom: 10px;
 }
 article ul {
-    background-color: rgb(36, 34, 34);
+    background-color: #242222;
     margin-left: 50px;
     margin-right: 50px;
 }
@@ -193,7 +200,7 @@ article ol {
 
 footer {
     clear: both;
-    background: -webkit-linear-gradient(#8f7b7b,#622525);
+    background: -webkit-linear-gradient(#775858,#622525);
     height: 60px;
     width: 100%;
     position: relative;

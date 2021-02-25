@@ -3,13 +3,14 @@
 <img src="Screenshot.png" alt="screenshot" width="800" height="425">
 # Tonight I Fancy.. 
 
-## [Link to live Github hosted website](https://jamiewilson2000.github.io/MS1TonightIFancy/)
+## [Link to 'Tonight I Fancy..'](https://jamiewilson2000.github.io/MS1TonightIFancy/)
 
 - For my first Milestone project I decided to design a website that would in the real world environment, potentially become a go-to site for ideas and inspiration regarding meal times. As I've been working on the site the ideas that have been coming to mind assure me that this is a site that could be developed into an attractive, useful brand.
 
 # Contents
 
 ## - [The 5 planes of UX](#the-5-planes-of-ux)
+## - [Early Stages](#early-stages)
 ## - [The Website Features](#the-website-features)
 ## - [The Coding Languages and Techniques Used](#the-coding-languages-and-techniques-used)
 ## - [User Interaction](#user-interaction)
@@ -39,17 +40,42 @@ This led me to thinking how handy it would be if there was a website (and I know
 - ## <u>The Surface</u>
     - At this stage was where the most changes were made, changing fonts around, adding color elements, etc. Some things worked, somethings didn't, but the bones of the site remained in place and I am now faced with a project that I'm relatively happy with given my current skillset.
     ---
+# Early Stages
 
-    <img src="wireframes/wireframe1.png" alt="wireframe1" width="300"> 
-    <img src="wireframes/wireframe2.png" alt="wireframe2" width="300">
-    <img src="wireframes/wireframe3.png" alt="wireframe3" width="300">
+<img src="wireframes/wireframe1.png" alt="wireframe1" width="300"> 
+<img src="wireframes/wireframe2.png" alt="wireframe2" width="300">
+<img src="wireframes/wireframe3.png" alt="wireframe3" width="300">
 
 - These are the 3 wireframes which I planned to use within the site. As stated before, very plain, straightforward design to get the user to their required purpose with minimal fuss or confusion. 
 - My original plan was to have the 5 cards in desktop view maintain visibility throughout into mobile views but I felt that it became too cluttered so I opted that once reaching a lower resolution, they should "collapse" into a dropdown menu bar, still with active links directing the user to their required purpose. 
 - My original plan for the recipe pages was to have an image of the dish on offer at the forefront of the page but I wasn't content that an image would be enough so I opted to have tutorial videos of each dish, offering a walkthrough of how to prepare the dish. I felt that this makes for a more enticing approach when dealing with food.
 - My original plan for the social links in the footer was to use the written word rather than the usual icon approach, however after having the option reviewed by my family members the general concensus was to stick with what people expect to see which is the social icons. Also, this gives the site a small element of global appeal for those that don't speak english as they will still recognise the icons. 
 
----
+<img src="images/colorscheme1.png" alt="colorscheme" width="500" height="197">
+<img src="images/contrast check.png" alt="contrastcheck" width="480" height="197">
+
+- The color scheme I chose was one through personal preferences. I personally would associate a wine color with food so I felt that the scheme would suit the site content appropriately. I ran a contrast check on the two colours representing body and text and returned a 4/5 star rating so I was happy to go on ahead.
+- I adopted:
+    - #622525 as the main theme of the site
+    - #f5f7dc is the color of the text
+    - #62252599 as a backing for textual areas 
+    - #775858 is the backing for the menu cards
+    - #724b4b is the color for hovering on a button within the menu cards
+    - #622525 fading to #775858 would be the base for the top banner and the dropdown menu
+    - #775858 fading to #622525 woudl be the base for the footer
+    - #242222 is the backing color of the information boxes (Ingredients and recipe method)
+
+- I used a text-shadow effect on the clickable text buttons incorporating the #f5f7dc text color with a red border on a black background in the hope that this will make them stand out as interactive.
+- To enhance the text I used a text-shadow effect on all textual items giving a lift to the text and creating continuity throughout the site. On this occasion I used a black coloring for the shadow.
+- For added styling I used the -webkit-linear-gradient- method on the main banner, the dropdown menu, and the footer to give a fade effect.
+- For defining the buttons on the menu cards that appear on the landing page I used a method called neumorphism to make the buttons stand out and appear as an interactive element.
+
+- For the textual elements I imported in two font familys from Google Fonts.
+    - <img src="images/font1.png" alt="font1" width="30%" height="30%">
+    - Cormorant Garamond is used throughout as the brand text.
+    - <img src="images/font2.png" alt="font2" width="30%" height="30%">
+    - Shippori Mincho is used in the larger bodys of text.
+    
 
 
 # The Website Features
@@ -78,14 +104,6 @@ This led me to thinking how handy it would be if there was a website (and I know
     - Fontawesome
     - Google Fonts: 'Cormorant Garamond' and 'Shippori Mincho'
 
-<img src="images/colorscheme.png" alt="colorscheme" width="500" height="197">
-
-- The colours used were based around the #622525 color, It being a bergundy/wine color. For contrast I used an off white color for the font and placed a transparent backing color behind the text.
-
-- For added styling I used the -webkit-linear-gradient- method on the main banner, the dropdown menu, and the footer to give a fade effect.
-
-- For defining the buttons on the menu cards that appear on the landing page I used a method called neumorphism to make the buttons stand out and appear as an interactive element.
-
 # User Interaction
 
 - The following elements are selectable:
@@ -107,7 +125,27 @@ This led me to thinking how handy it would be if there was a website (and I know
         - The additional home icon in the footer will take the user back to the home page.
         - The orignal social link icons will take the user to the relevant social media site in a new tab.
 
+# Methods of Testing
 
+- Throughout the development stage I used a handful of methods to ensure the site looked and acted how i felt appropriately.<br> These included:
+
+    - Chrome Dev Tools - for testing stylings, sizing, and responsiveness
+
+    - Mozilla Dev Tools - for testing stylings, sizing, and responsiveness
+
+    - http://ami.responsivedesign.is/ - again for testing stylings, sizing, and responsiveness.
+
+    - https://coolors.co/ - for picking color schemes and testing contrast colors
+
+    - Github Pages - to access the live site across different devices
+
+- Towards the end of the creative process I began to regularly push any changes made to the live site so I was able to test the site on:
+
+    - Samsung A50 phone
+    - Apple iPhone 8
+    - Apple iPhone 11
+    - Fire HD 10.1 tablet
+    - Huawei Mediapad 8" tablet
  
 
 
