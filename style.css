@@ -25,7 +25,7 @@ p {
     padding-top: 15px;
     font-family: 'Cormorant Garamond' , sans-serif;
     font-size: 6vw;
-    color: white;
+    color: #f5f7dc;
     text-align: center;
     /* vertical-align: middle; */
 }
@@ -44,7 +44,7 @@ p {
     width: 100%;
 }
 .card {
-    width: 18rem;
+    width: 14rem;
     margin-left:auto;
     margin-right: auto;
     justify-content: center;
@@ -56,7 +56,7 @@ p {
 }
 .text {
     font-family: 'Cormorant Garamond' , sans-serif;
-    font-size: 30px;
+    font-size: 2vw;
 }
 
 .btn-primary {
@@ -65,8 +65,13 @@ p {
 }
  .btn{
      width: 100%;
-     color: white;
+     color: #f5f7dc;
      background-color: #622525;
+     box-shadow: 12px 12px 16px 0 rgba(0, 0, 0, 0.25), -8px -8px 12px 0 rgba(255, 255, 255, 0.3);
+}
+.btn:hover {
+    background-color: #724b4b;
+    color: #f5f7dc;
 }
 .lgautohide {
     display: none;
@@ -83,7 +88,7 @@ p {
     color: black;
 }
 .dropdown-item {
-    color: white;
+    color: #f5f7dc;
 }
 .black{
     color: black;
@@ -91,7 +96,7 @@ p {
 .info h2 {
     background-color: #62252599; 
     margin-bottom: 0;
-    color: white;
+    color: #f5f7dc;
     text-align: center;
     padding: 30px 30px 20px;
     font-family: 'Shippori Mincho', sans-serif;
@@ -102,12 +107,17 @@ p {
 }
 .info p {
     background-color: #62252599;
-    color: white;
+    color: #f5f7dc;
     padding: 0px 30px 20px;
     text-align: center;
     font-family:'Shippori Mincho', sans-serif;
     font-size: 25px;
     line-height: 36px;
+}
+.highlight {
+    text-shadow: 2px 2px 5px red;
+    background-color: #622525;
+    border-radius: 50%;
 }
 .one-off {
     font-family: 'Cormorant Garamond' , sans-serif;
@@ -116,7 +126,7 @@ p {
 }
 .info a {
     font-family: 'Cormorant Garamond' , sans-serif;
-    color: white;
+    color: #f5f7dc;
     line-height: 50px;
     font-size:50px;
 }
@@ -142,7 +152,7 @@ article ul {
 }
 .u-list {
     margin-top: 20px;
-    color: white;
+    color: #f5f7dc;
     text-align: center;
 }
 .u-list ul {
@@ -161,7 +171,7 @@ article ol {
     margin-right: 50px;
 }
 .o-list {
-    color: white;
+    color: #f5f7dc;
     text-align: center;
     list-style-position: inside;
 }
@@ -171,7 +181,7 @@ article ol {
 }
 .o-list i {
     padding-right: 20px;
-    color: white;
+    color: #f5f7dc;
 }
 .o-list li {
     font-family: 'Shippori Mincho', sans-serif;
@@ -199,7 +209,7 @@ i {
 nav a {
     font-size: 30px;
     margin:20px;
-    color: white;
+    color: #f5f7dc;
 }
   nav {
     text-align: center;
@@ -218,12 +228,10 @@ nav a {
 .banner {
     height: 125px;
 }
-.autohide {
+/* .autohide {
     display:none;
-}
-.lgautohide {
-    display:block;
-}
+} */
+
 .images {
     position: relative;
     overflow: hidden;
@@ -248,8 +256,16 @@ article ol {
 }
 
 }
+@media screen and (max-width:1030px) {
+.autohide {
+    display:none;
+} 
+.lgautohide {
+    display:block;
+}   
+}
 @media screen and (max-width:768px) {
-
+    
 .banner {
     height:100px;
 }
@@ -257,6 +273,7 @@ article ol {
     font-size: 45px;
     padding-top: 20px;
 }
+
 .info h2 {
     font-size: 25px;
     line-height: 30px;

@@ -80,9 +80,11 @@ This led me to thinking how handy it would be if there was a website (and I know
 
 <img src="images/colorscheme.png" alt="colorscheme" width="500" height="197">
 
-- The colours used were based around the #622525 color, It being a bergundy/wine color. For contrast I used a plain white color for the font and placed a transparent backing color behind the text.
+- The colours used were based around the #622525 color, It being a bergundy/wine color. For contrast I used an off white color for the font and placed a transparent backing color behind the text.
 
 - For added styling I used the -webkit-linear-gradient- method on the main banner, the dropdown menu, and the footer to give a fade effect.
+
+- For defining the buttons on the menu cards that appear on the landing page I used a method called neumorphism to make the buttons stand out and appear as an interactive element.
 
 # User Interaction
 
