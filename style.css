@@ -181,6 +181,7 @@ article ol {
     color: #f5f7dc;
     text-align: center;
     list-style-position: inside;
+    
 }
 .o-list ol {
     padding-top: 10px;
@@ -193,6 +194,7 @@ article ol {
 .o-list li {
     font-family: 'Shippori Mincho', sans-serif;
     padding-right: 30px;
+    list-style-type: none;
 }
     
     
