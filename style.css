@@ -242,6 +242,7 @@ nav a {
 } */
 
 .images {
+    margin: 50px 50px;
     position: relative;
     overflow: hidden;
     padding-top: 56.25%;
@@ -272,6 +273,9 @@ article ol {
 .lgautohide {
     display:block;
 }   
+.images {
+    margin: 0;
+}
 }
 @media screen and (max-width:768px) {
     
@@ -304,6 +308,10 @@ article ol {
     margin-left: 50px;
     margin-right: 50px;
 }
+.images {
+    margin: 0;
+}
+
 }
 
 @media screen and (max-width:560px) {
@@ -326,6 +334,7 @@ article ol {
     color: red;
 } */
 .images {
+    margin: 0;
     position: relative;
     overflow: hidden;
     padding-top: 56.25%;
