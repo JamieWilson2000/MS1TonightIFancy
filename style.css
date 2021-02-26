@@ -1,11 +1,14 @@
-@import url('https://fonts.googleapis.com/css?family=Pacifico|Lato:300');
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@600&display=swap');
 html, body {
     width: 100%;
     height: 100%;
     padding:0;
-}
+    background: url(images/ingredients.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+} 
+
 p {
     margin-bottom: 0;
 }
@@ -13,12 +16,13 @@ p {
 .wrapper {
     width: 100%;
     margin-right:30px;
+    /* background-image:linear-gradient(to right, #622525, #776e1f, #622525); */
 }
 .banner {
     width: 100%;
     height: 150px;
     margin: 0;
-    background: -webkit-linear-gradient(#622525, #775858);
+    background: -webkit-linear-gradient(#622525,#775858);
 }
 .banner h1 {
     width: 100%;
@@ -35,14 +39,16 @@ p {
     
     
 }
-#back-image {
+ /* #back-image {
+    
     background-image: url(images/ingredients.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    }
+    }  */
     
 .info {
     width: 100%;
+    
 }
 .card {
     width: 14rem;
@@ -112,9 +118,9 @@ p {
     
 }
 .info p {
-    background-color: #62252599;
+    background-color: #62252599; 
     color: #f5f7dc;
-    text-shadow: 2px 2px 5px black;
+    text-shadow: 1px 1px 2px red, 0 0 1em #622525, 0 0 0.2em black;
     padding: 0px 30px 20px;
     text-align: center;
     font-family:'Shippori Mincho', sans-serif;
@@ -196,7 +202,48 @@ article ol {
     padding-right: 30px;
     list-style-type: none;
 }
-    
+/*THIS IS THE CONTACT FORM AREA*/
+.form-control {
+    box-shadow: 12px 12px 16px 0 rgba(0, 0, 0, 0.25) inset, -8px -8px 12px 0 rgba(255, 255, 255, 0.3) inset;
+    border: 1px solid;
+    width: 50vw;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+
+.inputwidth {
+    width: 50vw;
+    text-align: center;
+    box-shadow: 12px 12px 16px 0 rgba(0, 0, 0, 0.25) inset, -8px -8px 12px 0 rgba(255, 255, 255, 0.3)inset;
+}
+
+.contact-form {
+    background-color: #242222;
+    margin: 20px 100px 20px 100px;
+    text-align: center;
+    font-family: 'Cormorant Garamond' , sans-serif;
+    font-size: 2em;
+    color: #f5f7dc;
+}
+label {
+    font-family: 'Cormorant Garamond' , sans-serif;
+    color: #f5f7dc;
+}
+.textbox {
+    border: 1px solid;
+    height: 50px;
+    width: 50px;
+}
+
+.comment {
+    box-shadow: 12px 12px 16px 0 rgba(0, 0, 0, 0.25) inset, -8px -8px 12px 0 rgba(255, 255, 255, 0.3)inset;
+    width: 50vw;
+    height: 100px;
+    padding: 10px;
+    background-color: whitesmoke;
+}
+    /*END OF CONTACT*/
     
     /*THIS IS THE FOOTER AREA STYLING*/
 
@@ -311,6 +358,7 @@ article ol {
 .images {
     margin: 0;
 }
+
 
 }
 

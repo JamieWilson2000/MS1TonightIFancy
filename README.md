@@ -145,6 +145,10 @@ This led me to thinking how handy it would be if there was a website (and I know
 
     - Github Pages - to access the live site across different devices
 
+    - Google Lighthouse - to test perfomance 
+
+- An issue that Lighthouse raised was to use a < link > attribute when accessing external fonts instead of the @import option that I had currently used, so I implemented the advice. 
+
 - Towards the end of the creative process I began to regularly push any changes made to the live site so I was able to test the site on:
 
     - Samsung A50 phone
