@@ -11,6 +11,10 @@ html, body {
 
 p {
     margin-bottom: 0;
+    padding-bottom: 30px;
+    font-family: 'Shippori Mincho', sans-serif;
+    font-size: 3vw;
+    color:rgb(36, 34, 34);
 }
     
 .wrapper {
@@ -48,6 +52,7 @@ p {
     
 .info {
     width: 100%;
+    
     
 }
 .card {
@@ -106,32 +111,41 @@ p {
     color: black;
 }
 .info h2 {
-    background-color: #62252599; 
+    background-color: #f5f7dc;
+    margin-left: 5%;
+    margin-right: 5%; 
     margin-bottom: 0;
-    color: #f5f7dc;
-    text-shadow: 2px 2px 5px black;
+    border-left: 1px solid rgb(36 34 34);
+    border-right: 1px solid rgb(36 34 34);
+    color: rgb(36, 34, 34);
+    /* text-shadow: 2px 2px 5px black; */
     text-align: center;
-    padding: 30px 30px 20px;
+    padding: 30px 30px 30px;
     font-family: 'Shippori Mincho', sans-serif;
     font-size: 3vw;
-    line-height: 44px;
+    line-height: 40px;
 
     
 }
 .info p {
-    background-color: #62252599; 
-    color: #f5f7dc;
-    text-shadow: 1px 1px 2px red, 0 0 1em #622525, 0 0 0.2em black;
-    padding: 0px 30px 20px;
+    background-color: #f5f7dc;
+    border: 1px solid rgb(36, 34, 34);
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
     text-align: center;
+    /* text-shadow: 1px 1px 2px red, 0 0 1em #622525, 0 0 0.2em black;
+    padding: 0px 30px 20px;
+    
     font-family:'Shippori Mincho', sans-serif;
     font-size: 25px;
-    line-height: 36px;
+    line-height: 36px; */
 }
 .highlight {
-    text-shadow: 2px 2px 5px red;
-    background-color: black;
-    border-radius: 50%;
+    /* text-shadow: 2px 2px 5px red; */
+    border: 1px solid #622525;
+    background-color: #622525;
+    border-radius: 25%;
 }
 .one-off {
     font-family: 'Cormorant Garamond' , sans-serif;
@@ -161,8 +175,8 @@ ingredients {
 }
 article ul {
     background-color: #242222;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 .u-list {
     margin-top: 20px;
@@ -295,7 +309,7 @@ nav a {
 } */
 
 .images {
-    margin: 50px 50px;
+    margin: 75px 75px;
     position: relative;
     overflow: hidden;
     padding-top: 56.25%;
@@ -310,8 +324,8 @@ nav a {
     border: 0;
 }
 article ul {
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 article ol {
     margin-left: 50px;
@@ -349,12 +363,12 @@ article ol {
     height:100px;
 }
 .banner h1 {
-    font-size: 45px;
-    padding-top: 20px;
+    font-size: 10vw;
+    padding-top: 0;
 }
 
 .info h2 {
-    font-size: 25px;
+    font-size: 5vw;
     line-height: 30px;
 }
 nav a {
@@ -367,8 +381,8 @@ nav {
     font-size: 50px;
 }
 article ul {
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 article ol {
     margin-left: 50px;
@@ -456,8 +470,8 @@ article ol {
     line-height: 40px;
 }
 article ul {
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 article ol {
