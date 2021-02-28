@@ -71,7 +71,7 @@ p {
 }
 .text {
     font-family: 'Cormorant Garamond' , sans-serif;
-    font-size: 2vw;
+    font-size: .5em;
     text-shadow: 2px 2px 5px black;
 }
 
@@ -111,7 +111,7 @@ p {
     color: black;
 }
 .info h2 {
-    background-color: #f5f7dc;
+    background-color: rgb(245, 247, 220);
     margin-left: 5%;
     margin-right: 5%; 
     margin-bottom: 0;
