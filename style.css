@@ -347,6 +347,9 @@ article ol {
 }
 .lgautohide {
     display:block;
+}
+.autohide {
+    display: none;
 }   
 .images {
     margin: 0;
