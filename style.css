@@ -2,26 +2,26 @@ html, body {
     width: 100%;
     height: 100%;
     padding:0;
-    background: url(images/ingredients.jpg) no-repeat center center fixed;
+    /* background: url(images/ingredients.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
+    background-size: cover; */
 } 
 
 p {
     margin-bottom: 0;
     padding-bottom: 30px;
     font-family: 'Shippori Mincho', sans-serif;
-    font-size: 3vw;
+    font-size: 2vw;
     color:rgb(36, 34, 34);
 }
     
 .wrapper {
     width: 100%;
-    margin-right:30px;
-    /* background-image:linear-gradient(to right, #622525, #776e1f, #622525); */
+    /* margin-right:30px; */
 }
+/*****TOP MAIN BANNER AND HEADING SECTION*****/
 .banner {
     width: 100%;
     height: 150px;
@@ -30,9 +30,9 @@ p {
 }
 .banner h1 {
     width: 100%;
-    padding-top: 15px;
+    padding-top: 1%;
     font-family: 'Cormorant Garamond' , sans-serif;
-    font-size: 6vw;
+    font-size: 6rem;
     color: #f5f7dc;
     text-shadow: 2px 2px 5px black;
     text-align: center;
@@ -40,22 +40,29 @@ p {
 }
 .top-banner {
     width:100%;
-    
-    
 }
- /* #back-image {
-    
-    background-image: url(images/ingredients.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    }  */
-    
+/*****SUB-HEADING SECTION*****/  
 .info {
     width: 100%;
-    
-    
 }
+.info h2 {
+    background-color: #f5f7dc;
+    margin-left: 5%;
+    margin-right: 5%; 
+    margin-bottom: 0;
+    border-left: 1px solid rgb(36 34 34);
+    border-right: 1px solid rgb(36 34 34);
+    color: rgb(36, 34, 34);
+    /* text-shadow: 2px 2px 5px black; */
+    text-align: center;
+    padding: 30px 30px 30px;
+    font-family: 'Cormorant Garamond', sans-serif;
+    font-size: 3vw;
+    line-height: 40px;
+}
+/*****RECIPE/MENU CARDS SECTION*****/
 .card {
+    margin-top: 20px;
     width: 14rem;
     margin-left:auto;
     margin-right: auto;
@@ -74,7 +81,6 @@ p {
     font-size: .5em;
     text-shadow: 2px 2px 5px black;
 }
-
 .btn-primary {
     background-color: #622525;
     border: none;
@@ -93,7 +99,7 @@ p {
 .lgautohide {
     display: none;
 }
-
+/*****ALTERNATIVE MOBILE VIEW DROPDOWN MENU*****/
 .dropdown-menu {
     width: 100%;
     margin-left: auto;
@@ -107,30 +113,17 @@ p {
 .dropdown-item {
     color: #f5f7dc;
 }
-.black{
-    color: black;
+.labcol{
+    color: #f5f7dc;
 }
-.info h2 {
-    background-color: rgb(245, 247, 220);
-    margin-left: 5%;
-    margin-right: 5%; 
-    margin-bottom: 0;
-    border-left: 1px solid rgb(36 34 34);
-    border-right: 1px solid rgb(36 34 34);
-    color: rgb(36, 34, 34);
-    /* text-shadow: 2px 2px 5px black; */
-    text-align: center;
-    padding: 30px 30px 30px;
-    font-family: 'Shippori Mincho', sans-serif;
-    font-size: 3vw;
-    line-height: 40px;
-
-    
-}
+/*****MAIN BODY OF TEXT SECTION*****/
 .info p {
     background-color: #f5f7dc;
+    font-family:'Shippori Mincho', sans-serif;
     border: 1px solid rgb(36, 34, 34);
-    margin-top: 5%;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 20px;
     margin-left: 5%;
     margin-right: 5%;
     text-align: center;
@@ -360,11 +353,14 @@ article ol {
 @media screen and (max-width:768px) {
     
 .banner {
-    height:100px;
+    height:130px;
 }
 .banner h1 {
-    font-size: 10vw;
+    font-size: 6em;
     padding-top: 0;
+}
+p {
+    font-size: 3vw;
 }
 
 .info h2 {
@@ -415,6 +411,11 @@ article ol {
 
 
 }
+@media screen and (max-width:650px) {
+  .banner h1 {
+      font-size: 5rem;
+  }  
+}
 
 @media screen and (max-width:560px) {
 
@@ -423,9 +424,13 @@ article ol {
     width: 100%;
 }
 .banner h1 {
+    padding-top: 15px;
+    font-size: 3.5rem;
+}
+/* .banner h1 {
     font-size: 45px;
     padding-top: 20px;
-} 
+}  */
 .autohide {
     display:none;
 }
