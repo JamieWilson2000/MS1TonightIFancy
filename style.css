@@ -337,12 +337,8 @@ article ol {
 
 }
 @media screen and (max-width:1290px) {
-.autohide {
-    display:none;
-} 
-.info h2 {
-    display:none;
-}
+
+
 .collage {
     display: block;
 }
@@ -389,8 +385,7 @@ p {
 }
 
 .info h2 {
-    display:none;
-    font-size: 5vw;
+    font-size: 7.5vw;
     line-height: 30px;
 }
 nav a {
@@ -481,7 +476,7 @@ article ol {
     border: 0;
 }
 .info h2 {
-    font-size: 25px;
+    font-size: 2em;
     line-height: 30px;
 }
 
