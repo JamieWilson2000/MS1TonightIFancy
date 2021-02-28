@@ -123,6 +123,9 @@ p {
     text-align: center;
 }
 /*****MAIN BODY OF TEXT SECTION*****/
+.span {
+    line-height: 75px;
+}
 .info p {
     background-color: #f5f7dc;
     font-family:'Shippori Mincho', sans-serif;
@@ -337,6 +340,9 @@ article ol {
 .autohide {
     display:none;
 } 
+.info h2 {
+    display:none;
+}
 .collage {
     display: block;
 }
