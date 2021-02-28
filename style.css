@@ -345,9 +345,6 @@ article ol {
 .info img {
     max-width: 90%;
 }
-.autohide {
-    display: none;
-}
 .lgautohide {
     display:block;
 }   
