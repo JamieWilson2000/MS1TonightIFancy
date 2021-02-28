@@ -60,6 +60,9 @@ p {
     font-size: 3vw;
     line-height: 40px;
 }
+.collage {
+    display: none;
+}
 /*****RECIPE/MENU CARDS SECTION*****/
 .card {
     margin-top: 20px;
@@ -115,6 +118,9 @@ p {
 }
 .labcol{
     color: #f5f7dc;
+}
+.collage {
+    text-align: center;
 }
 /*****MAIN BODY OF TEXT SECTION*****/
 .info p {
@@ -359,11 +365,18 @@ article ol {
     font-size: 6em;
     padding-top: 0;
 }
+.collage {
+    display: block;
+}
+.info img {
+    max-width: 90%;
+}
 p {
     font-size: 3vw;
 }
 
 .info h2 {
+    display:none;
     font-size: 5vw;
     line-height: 30px;
 }
