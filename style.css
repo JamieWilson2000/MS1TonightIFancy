@@ -336,6 +336,12 @@ article ol {
 .autohide {
     display:none;
 } 
+.collage {
+    display: block;
+}
+.info img {
+    max-width: 90%;
+}
 .lgautohide {
     display:block;
 }   
