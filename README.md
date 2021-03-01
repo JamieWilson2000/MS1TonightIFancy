@@ -47,12 +47,13 @@ This led me to thinking how handy it would be if there was a website (and I know
     ---
 # Early Stages
 
-<img src="wireframes/wireframe1.png" alt="wireframe1" width="300"> 
-<img src="wireframes/wireframe2.png" alt="wireframe2" width="300">
-<img src="wireframes/wireframe3.png" alt="wireframe3" width="300">
+<img src="wireframes/wireframe1.png" alt="wireframe1" width="230"> 
+<img src="wireframes/wireframe2.png" alt="wireframe2" width="230">
+<img src="wireframes/wireframe3.png" alt="wireframe3" width="230">
+<img src="wireframes/wireframe4.png" alt="wireframe4" width="230">
 
-- These are the 3 wireframes which I planned to use within the site. As stated before, very plain, straightforward design to get the user to their required purpose with minimal fuss or confusion. 
-- My original plan was to have the 5 cards in desktop view maintain visibility throughout into mobile views but I felt that it became too cluttered so I opted that once reaching a lower resolution, they should "collapse" into a dropdown menu bar, still with active links directing the user to their required purpose. 
+- These are the 4 wireframes which I planned to use within the site. As stated before, very plain, straightforward design to get the user to their required purpose with minimal fuss or confusion. 
+- My original plan was to have the 5 cards in desktop view maintain visibility throughout into mobile views but I felt that it became too cluttered so I opted that once reaching a lower resolution, they should "collapse" into a dropdown menu bar, still with active links directing the user to their required purpose. A collage image should be present giving a visual representation of the dishes on offer. 
 - My original plan for the recipe pages was to have an image of the dish on offer at the forefront of the page but I wasn't content that an image would be enough so I opted to have tutorial videos of each dish, offering a walkthrough of how to prepare the dish. I felt that this makes for a more enticing approach when dealing with food.
 - My original plan for the social links in the footer was to use the written word rather than the usual icon approach, however after having the option reviewed by my family members the general concensus was to stick with what people expect to see which is the social icons. Also, this gives the site a small element of global appeal for those that don't speak english as they will still recognise the icons. 
 
@@ -74,6 +75,7 @@ This led me to thinking how handy it would be if there was a website (and I know
 - To enhance the text I used a text-shadow effect on all textual items giving a lift to the text and creating continuity throughout the site. On this occasion I used a black coloring for the shadow.
 - For added styling I used the -webkit-linear-gradient- method on the main banner, the dropdown menu, and the footer to give a fade effect.
 - For defining the buttons on the menu cards that appear on the landing page I used a method called neumorphism to make the buttons stand out and appear as an interactive element.
+- I also adopted the neumorphism method on the contact form. I wanted to keep the form very simple so I felt that interest should come from a styling perspective
 
 - For the textual elements I imported in two font familys from Google Fonts.
     - <img src="images/font1.png" alt="font1" width="30%" height="30%">
@@ -86,11 +88,11 @@ This led me to thinking how handy it would be if there was a website (and I know
 # The Website Features
 
 - ## <u>As Submitted</u>
-    - The finished website as it stands is a simplistic, very approachable site. One page to welcome the user and explain it's purpose with essentially one other page featuring the users selected choice.
+    - The finished website as it stands is a simplistic, very approachable site. One page to welcome the user and explain the sites purpose, and from there the user will navigate to the recipe they wish to view. There is also a contact form for getting in touch with suggestions, complaints or compliments. At this stage of my skillset I have the user redirected back to the homepage once the submit button has been selected so as to keep the flow of the site constant.
     - I purposely decided to leave out a navigation button because I felt on this site it wouldn't be a necessary item. The options are right in front of the user. Perhaps as the site developed with more features there would be a need for one but for now I'm wanting to stick to the minimalistic style.
-    - Navigation around the site consists of simple links. Each menu card on the landing page is selectable for accessing the selected option. On smaller screens the five card menu options become a dropdown menu, again with the five dinner choices all selectable to take the user to their choice. Additionally, at the bottom of the landing page there are the five choices of main ingredients, Chicken, Pork, Beef, Lamb, and Vegetarian, again all selectable links.<br> 
+    - Navigation around the site consists of simple links. Each menu card on the landing page is selectable for accessing the selected option. On smaller screens the five card menu options become a dropdown menu, again with the five dinner choices all selectable to take the user to their choice. Additionally, at the bottom of the landing page there are the five choices of main ingredients, Chicken, Pork, Beef, Lamb, Vegetarian and the 'Get in Touch' option, again all selectable links.<br> 
     The "recipe" page features a welcome banner, a tutorial video on how to make the selected dish, a list of the required ingredients, and the method for making the dish. Additionally, if the user decides the recipe is not the one they want, the remaining options are still at the bottom of the page, giving the user the opportunity to select another option.
-    - As standard I have included social media links to Facebook, Twitter and Instagram which in the real world would all link to the business pages, at the moment they take the user to the log-in section of each. On the "recipe" pages, I have also included a link back to the homepage should the user wish to return to the start. The main banner title "Tonight I Fancy.." is also selectable in the "recipe" pages to take you back to the main page.
+    - As standard I have included social media links to Facebook, Twitter and Instagram which in the real world would all link to the business pages, at the moment they take the user to the log-in section of each. On the "recipe" pages, I have also included a link back to the homepage should the user wish to return to the start. The main banner title "Tonight I Fancy.." is also selectable in the "recipe" pages to take you back to the main page but I chose not to highlight it's usability, treat it more of an 'easter egg' that users can discover. There is the homepage icon at the bottom of the screen so the user should not feel stuck.
     - By means of support I have also made the titles of those responsible for providing the recipe and the tutorial videos selectable, taking the user to their respective home sites.
 
 - ## <u>Features I would include in the future</u>
@@ -100,6 +102,7 @@ This led me to thinking how handy it would be if there was a website (and I know
     - I would like to see affiliations with other sites similar to Listonic wherein you can save and transfer your ingredients to a shopping list application. Similar to that, I would like to have an ability to save selected ingredients into a database on the site which can then be accessed as a shopping list on a mobile device.
     - I would like a method of recording how many hits each recipe/ingredient recieved over a period of time to gauge how popular each item is. This information would then be used to determine future options and choices.
     - Outside of the coding aspect, I would envisage employing staff to create our own tutorial videos and so putting a face to the brand of "Tonight I Fancy.."
+    - When selecting the links to those who supplied the recipes and tutorials, I would have ideally liked the sites to open within my own site but seemingly there is an issue with opening https sites within https sites. This is something that I'm sure can be worked around but at the moment it's an addition for the future.
 
 # The Coding Languages and Techniques Used
 
@@ -116,15 +119,16 @@ This led me to thinking how handy it would be if there was a website (and I know
     -   The Landing Page:
         - The five cards each take the user to the selected meal option.
         - The five ingredient options also take the user to the meal option for that ingredient.
+        - The 'Get in Touch' option to navigate the user to the contact form.
         - There are three social link icons in the footer, each take the user to the relevant social media site opening in a new page.
     
     - The Mobile Landing Page:
         - In place of the card menu preview, there is now a dropdown menu featuring the 5 meal option and again, each option will take the user to the relevant page. 
-        - The five ingredient options are still in place as are the social links in the footer.
+        - The five ingredient options are still in place as is the contact form link and the social links in the footer.
 
     - The Recipe Pages:
         - The "Tonight I Fancy.." title in the top banner will take the user back to the home page.
-        - The video is playable within it's own place.
+        - The video is playable within it's own frame.
         - The name of the recipe supplier when selected will take the user to their own website in a new tab.
         - The name of the tutorial supplier when selected will take the user to their own website in a new tab.
         - The four remaining ingredient options after the recipe will take the user to the relevant page.
@@ -147,7 +151,12 @@ This led me to thinking how handy it would be if there was a website (and I know
 
     - Google Lighthouse - to test perfomance 
 
-- An issue that Lighthouse raised was to use a < link > attribute when accessing external fonts instead of the @import option that I had currently used, so I implemented the advice. 
+
+    - Thankfully there were not many issues raised during testing.
+    - To increase performance it was suggested to use a < link > attribute when accessing external fonts instead of the @import option that I had currently used, so I implemented the advice.
+    -  There were a couple of mis-matched or missing tags that I was able to fix with no problem.
+    - I had inserted 'paragraph' breaks within the recipe pages that I had imported in from Fontawesome, these were problematic because I hadn't them inserted into the code correctly (I had not placed them inside the < li > tags). 
+
 
 - Towards the end of the creative process I began to regularly push any changes made to the live site so I was able to test the site on:
 
@@ -166,6 +175,10 @@ This led me to thinking how handy it would be if there was a website (and I know
             alt="Valid CSS!" />
     </a>
 </p>
+
+- My final audit from Google lighthouse read a respectable<br>
+<br>
+<img src="images/lighthouseresult.png" alt="font1" width="30%" height="30%">
 
 # Credits
 
@@ -188,7 +201,7 @@ Throughout the creation of this project I have referred to the following for ass
 
 - Acknowledgement
 
-    - I would like to thank Code Institute for the knowledge and the motivation shown to me up to this point. As a  complete newbie to coding I am so proud that thanks to CI I have the ability to acheive this creation. I look forward to the rest of the course and a new future career.
+    - I would like to thank Code Institute for the knowledge and the motivation shown to me up to this point. I would also like to thank my mentor Gurjot Singh for his advice in completing this project. As a  complete newbie to coding I am so proud that thanks to CI I have the ability to acheive this creation. I look forward to the rest of the course and a new future career.
 
 
 # - [Back to top](#contents)
