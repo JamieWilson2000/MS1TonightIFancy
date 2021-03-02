@@ -539,7 +539,12 @@ nav a {
     position: relative;
 }
 
-
+}
+@media screen and (max-width:321px) {
+.banner h1 {
+    padding-top: 18px;
+    font-size: 3rem;
+}   
 
 }
 
