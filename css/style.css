@@ -148,7 +148,7 @@ p {
     /* text-shadow: 2px 2px 5px red; */
     border: 1px solid #622525;
     background-color: #622525;
-    border-radius: 25%;
+    /* border-radius: 25%; */
 }
 .one-off {
     font-family: 'Cormorant Garamond' , sans-serif;
@@ -500,7 +500,7 @@ article ol {
     line-height: 24px;
 }
 .info a {
-    font-size: 35px;
+    font-size: 2rem;
 }
 .one-off {
     font-size:40px;
@@ -544,7 +544,9 @@ nav a {
 .banner h1 {
     padding-top: 18px;
     font-size: 3rem;
-}   
+} 
+/* .info a {
+    font-size: 30px; }  */
 
 }
 

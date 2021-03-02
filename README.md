@@ -1,6 +1,6 @@
 # <u>Milestone Project 1</u>
 
-<img src="images/screenshot2.png" alt="screenshot" width="600" height="337">
+<img src="images/screenshot3.png" alt="screenshot" width="600" height="337">
  
 
 ## [Link to live site 'Tonight I Fancy..'](https://jamiewilson2000.github.io/MS1TonightIFancy/)
