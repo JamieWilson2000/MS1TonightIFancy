@@ -132,6 +132,11 @@ p {
     border: 1px solid #622525;
     border-radius: 11px;
 }
+.highlight:hover {
+    transition: 0.5s;
+    background: #77585860;
+    color: black;
+}
 .one-off {
     font-family: 'Cormorant Garamond' , sans-serif;
     font-size:45px;
@@ -143,7 +148,6 @@ p {
     line-height: 50px;
     font-size:50px;
 }
-
 ingredients {
     width: 100%;
 }
