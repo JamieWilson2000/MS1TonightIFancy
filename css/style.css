@@ -2,13 +2,7 @@ html, body {
     width: 100%;
     height: 100%;
     padding:0;
-    /* background: url(images/ingredients.jpg) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover; */
 } 
-
 p {
     margin-bottom: 0;
     padding-bottom: 30px;
@@ -16,10 +10,8 @@ p {
     font-size: 3vw;
     color: #242222;
 }
-    
 .wrapper {
     width: 100%;
-    /* margin-right:30px; */
 }
 /*****TOP MAIN BANNER AND HEADING SECTION*****/
 .banner {
@@ -36,7 +28,6 @@ p {
     color: #f5f7dc;
     text-shadow: 2px 2px 5px black;
     text-align: center;
-    /* vertical-align: middle; */
 }
 .top-banner {
     width:100%;
@@ -51,9 +42,7 @@ p {
     margin-left: 5%;
     margin-right: 5%; 
     margin-bottom: 0;
-    
     color: #242222;
-    /* text-shadow: 2px 2px 5px black; */
     text-align: center;
     padding: 30px 30px 30px;
     font-family: 'Cormorant Garamond', sans-serif;
@@ -137,18 +126,11 @@ p {
     margin-left: 5%;
     margin-right: 5%;
     text-align: center;
-    /* text-shadow: 1px 1px 2px red, 0 0 1em #622525, 0 0 0.2em black;
-    padding: 0px 30px 20px;
-    
-    font-family:'Shippori Mincho', sans-serif;
-    font-size: 25px;
-    line-height: 36px; */
 }
 .highlight {
-    /* text-shadow: 2px 2px 5px red; */
+    color: #622525;
     border: 1px solid #622525;
-    background-color: #622525;
-    /* border-radius: 25%; */
+    border-radius: 11px;
 }
 .one-off {
     font-family: 'Cormorant Garamond' , sans-serif;
@@ -165,12 +147,6 @@ p {
 ingredients {
     width: 100%;
 }
-/* img {
-    max-width: 50%;
-    max-height: 50%;
-    
-}  */
-
 .images {    
     display: flex;
     justify-content: center;
@@ -205,7 +181,6 @@ article ol {
     color: #f5f7dc;
     text-align: center;
     list-style-position: inside;
-    
 }
 .o-list ol {
     padding-top: 10px;
@@ -238,7 +213,6 @@ article ol {
     box-shadow: 12px 12px 16px 0 rgba(0, 0, 0, 0.25) inset, -8px -8px 12px 0 rgba(255, 255, 255, 0.3)inset;
 }
 .contact-form {
-    /* background-color: white; */
     margin: 20px 20px 70px 20px;
     text-align: center;
     font-family: 'Cormorant Garamond' , sans-serif;
@@ -267,9 +241,7 @@ label {
     margin-bottom: 20px;
 }
     /*END OF CONTACT*/
-    
     /*THIS IS THE FOOTER AREA STYLING*/
-
 footer {
     clear: both;
     background: -webkit-linear-gradient(#775858,#622525);
@@ -280,11 +252,6 @@ footer {
 i {
     font-size: 30px;
 }
-/* i {
-    color: white;
-    margin: 10px;
-    align-items: center;
-} */
 nav a {
     font-size: 30px;
     margin:20px;
@@ -293,41 +260,26 @@ nav a {
   nav {
     text-align: center;
     padding-top:10px;
-      
-      /* color: white; */
-  }
-
-
-
+}
 /*END OF FOOTER AREA STYLING*/
-
-
 
 @media screen and (max-width:1410px) {
 .banner {
     height: 125px;
 }
-/* .autohide {
-    display:none;
-} */
-
 .images {
     margin: 75px 75px;
     position: relative;
     overflow: hidden;
     padding-top: 56.25%;
 }
-
-
- .iframe {
+.iframe {
     position: absolute;
     top: 30px;
     margin-left: auto;
     margin-right: auto;
     width: 90%;
     height: 90%;
-    
-    
     border: 0;
 }
 article ul {
@@ -338,10 +290,8 @@ article ol {
     margin-left: 50px;
     margin-right: 50px;
 }
-
 }
 @media screen and (max-width:1290px) {
-
 .info h2 {
     font-size: 4em;
     line-height:60px;
@@ -376,7 +326,6 @@ article ol {
 }
 }
 @media screen and (max-width:768px) {
-    
 .banner {
     height:130px;
 }
@@ -393,10 +342,9 @@ article ol {
 p {
     font-size: 3vw;
 }
-
 .info h2 {
     font-size: 7.5vw;
-    line-height: 30px;
+    line-height: 60px;
 }
 nav a {
     font-size: 40px;
@@ -425,31 +373,17 @@ article ol {
 #formchoice {
     width: 70vw;
 }
-
-/* option {
-    width: 560px;
-} */
-/* .form-control option{
-    
-    width: 50px;
-    font-size: 3vw;
-    color: red;
-}  */
-
 .images {
     margin: 0;
 }
-
-
 }
 @media screen and (max-width:650px) {
-  .banner h1 {
-      font-size: 5rem;
-  }  
+.banner h1 {
+    font-size: 5rem;
+}  
 }
 
 @media screen and (max-width:560px) {
-
 .banner {
     height: 100px;
     width: 100%;
@@ -458,26 +392,19 @@ article ol {
     padding-top: 15px;
     font-size: 3.5rem;
 }
-/* .banner h1 {
-    font-size: 45px;
-    padding-top: 20px;
-}  */
 .autohide {
     display:none;
 }
 .lgautohide{
     display:block;
 }
-/* .btn {
-    color: red;
-} */
 .images {
     margin: 0;
     position: relative;
     overflow: hidden;
     padding-top: 56.25%;
 }
- .iframe {
+.iframe {
     position: absolute;
     top: 20px;
     margin-left: auto;
@@ -488,13 +415,11 @@ article ol {
 }
 .info h2 {
     font-size: 2em;
-    line-height: 30px;
+    line-height: 40px;
 }
-
 .info img {
     max-width: 90%;
 }
-
 .info p {
     font-size: 20px;
     line-height: 24px;
@@ -510,7 +435,6 @@ article ul {
     margin-left: 5%;
     margin-right: 5%;
 }
-
 article ol {
     margin-left: 10px;
     margin-right: 10px;
@@ -530,7 +454,6 @@ nav a {
     height: 40px;
     font-size: 8vw;
 }
-
 .comment {
     width: 90vw;
     height: 100px;
@@ -538,15 +461,11 @@ nav a {
 .fixed-footer {
     position: relative;
 }
-
 }
 @media screen and (max-width:321px) {
 .banner h1 {
     padding-top: 18px;
     font-size: 3rem;
 } 
-/* .info a {
-    font-size: 30px; }  */
-
 }
 
