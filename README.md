@@ -11,8 +11,9 @@
 ## - [The 5 planes of UX](#the-5-planes-of-ux)
 ## - [Early Stages](#early-stages)
 ## - [The Website Features](#the-website-features)
-## - [The Coding Languages and Techniques Used](#the-coding-languages-and-techniques-used)
 ## - [User Interaction](#user-interaction)
+## - [The Coding Languages and Techniques Used](#the-coding-languages-and-techniques-used)
+## - [Method of Deployment](#method-of-deployment)
 ## - [Methods of Testing](#methods-of-testing)
 ## - [Credits](#credits)
 
@@ -141,6 +142,35 @@ This led me to thinking how handy it would be if there was a website (and I know
     - Outside of the coding aspect, I would envisage employing staff to create our own tutorial videos and so putting a face to the brand of "Tonight I Fancy.."
     - When selecting the links to those who supplied the recipes and tutorials, I would have ideally liked the sites to open within my own site but seemingly there is an issue with opening https sites within https sites. This is something that I'm sure can be worked around but at the moment it's an addition for the future.
 
+# User Interaction
+
+- The following elements are selectable:
+    -   The Landing Page:
+        - The five cards each take the user to the selected meal option.
+        - The five ingredient options also take the user to the meal option for that ingredient.
+        - The 'Get in Touch' option to navigate the user to the contact form.
+        - There are three social link icons in the footer, each take the user to the relevant social media site opening in a new page.
+    
+    - The Mobile Landing Page:
+        - In place of the card menu preview, there is now a dropdown menu featuring the 5 meal option and again, each option will take the user to the relevant page. 
+        - The five ingredient options are still in place as is the contact form link and the social links in the footer.
+
+    - The Recipe Pages:
+        - The "Tonight I Fancy.." title in the top banner will take the user back to the home page.
+        - The video is playable within it's own frame.
+        - The name of the recipe supplier when selected will take the user to their own website in a new tab.
+        - The name of the tutorial supplier when selected will take the user to their own website in a new tab.
+        - The four remaining ingredient options after the recipe will take the user to the relevant page.
+        - The additional home icon in the footer will take the user back to the home page.
+        - The orignal social link icons will take the user to the relevant social media site in a new tab.
+
+    - The Contact Form:
+        - The 'Name' field is where the user will leave their name to be used in correspondance.
+        - The 'E-mail' field is where the user will leave their e-mail address for future correspondance.
+        - The 'Reason for contacting us' field will help narrow down the options as to why the user is contacting us.
+        - The 'Tell us how...' field informs the user that this is where more details can be given and also informs them that after hitting the submit button the user will be returned back to the home-page.
+        - The 'Submit' button would essentially post the information to the required body and return the user back to the homepage.
+
 # The Coding Languages and Techniques Used
 
 - This site was constructed using:
@@ -239,33 +269,24 @@ This led me to thinking how handy it would be if there was a website (and I know
             box-shadow: 12px 12px 16px 0 rgba(0, 0, 0, 0.25)inset, -8px -8px 12px 0 rgba(255, 255, 255, 0.3)inset;
         }
 
-    
+# Method of Deployment
 
-# User Interaction
+- To fully test the site on multiple 'real-world' devices I needed to create a live link to the site that could be accessed universally. To do this, a simple procedure is required. 
 
-- The following elements are selectable:
-    -   The Landing Page:
-        - The five cards each take the user to the selected meal option.
-        - The five ingredient options also take the user to the meal option for that ingredient.
-        - The 'Get in Touch' option to navigate the user to the contact form.
-        - There are three social link icons in the footer, each take the user to the relevant social media site opening in a new page.
-    
-    - The Mobile Landing Page:
-        - In place of the card menu preview, there is now a dropdown menu featuring the 5 meal option and again, each option will take the user to the relevant page. 
-        - The five ingredient options are still in place as is the contact form link and the social links in the footer.
+    - Step 1: Open Github.com and sign in.
+    - Step 2: Once signed in you should see your repositorys in chronological order.
+    - Step 3: Select the repository you wish to create a link for and once selected click the settings tab on the page.
+    - Step 4: Within the settings page you will be given the option to rename the repository, add an image to customize your social media preview, and many other options to be explored at a later date.
+    - Step 5: Scroll down and you will find the heading for GitHub Pages.
+    - Step 6: At this stage the 'source' field should read 'none' so click on the button and select 'master'
+    - Step 7: Once this is selected, hit save and the page should refresh bringing you back to the top.
+    - Step 8: Scroll back down to the Github pages section and you will now see a message informing the user that the site is ready to be published and a highlighted link. Make a note of the link address for future reference or click the link to access the site direct. 
 
-    - The Recipe Pages:
-        - The "Tonight I Fancy.." title in the top banner will take the user back to the home page.
-        - The video is playable within it's own frame.
-        - The name of the recipe supplier when selected will take the user to their own website in a new tab.
-        - The name of the tutorial supplier when selected will take the user to their own website in a new tab.
-        - The four remaining ingredient options after the recipe will take the user to the relevant page.
-        - The additional home icon in the footer will take the user back to the home page.
-        - The orignal social link icons will take the user to the relevant social media site in a new tab.
+- From this point on you can type in and access your site on any device with an internet browser which is ideal for testing purposes.
 
 # Methods of Testing
 
-- Throughout the development stage I used a handful of methods to ensure the site looked and acted how i felt appropriately.<br> These included:
+- Throughout the development stage I used a handful of methods to ensure the site looked and acted appropriately.<br> These included:
 
     - Chrome Dev Tools - for testing stylings, sizing, and responsiveness
 
@@ -280,7 +301,27 @@ This led me to thinking how handy it would be if there was a website (and I know
     - Google Lighthouse - to test perfomance 
 
 
-    - Thankfully there were not many issues raised during testing.
+## Summary of User Testing
+
+- For this I employed my wife to use the site as she had very little idea on how the site was structured.<br> Points raised were:
+    - I initially had the #622525 theme color running throughout the whole site with a strong background image fleshing out the background (See Example 1), the user found the whole site a little overwhelming and felt the text didn't stand out as well as possibly could.
+        - As a result of this feedback I redesigned the color scheme as represented now. (See Example 2)
+
+    - The user felt there was little need for the menu cards to have three sections (See Example 1), an image, a description, and a button with the meal title.
+        - As a result of this feedback I removed the middle section featuring the description (See Example 2).
+
+    - The user was able to navigate around the site with very little effort but felt the clickable elements would benefit some form of identification.
+        - As a result of this feedback I adopted neumorphism into the site to give the elements a raised effect.
+
+    - The user felt the tutorial videos reaching the full width of the screen was too overpowering for the page and even prevented the user from knowing there was more content below.
+        - As a result of this feedback I reduced the size of the tutorial videos to be inline with other elements on the page.
+
+    Example 1 <img src="images/screenshot.png" alt="originalscreenshot" width="400px">
+    Example 2 <img src="images/screenshot3.png" alt="finishedscreenshot" width="375px">
+
+    
+    -Overall the user testing was a positive affair. The user was able to grasp the intentions of the site, with minimal effort was able to browse through the menu options, accessed the external links to visit the contributors webpages, and generally felt the sites purpose was acheived in an enjoyable manner. The user felt that the site was perhaps more suited to a mobile premise which I took on board. In the real-world environment the majority of the sites users would be accessing it on mobile devices rather than on desktops.
+
     - To increase performance it was suggested to use a < link > attribute when accessing external fonts instead of the @import option that I had currently used, so I implemented the advice.
     -  There were a couple of mis-matched or missing tags that I was able to fix with no problem.
     - I had inserted 'paragraph' breaks within the recipe pages that I had imported in from Fontawesome, these were problematic because I hadn't them inserted into the code correctly (I had not placed them inside the < li > tags). 
