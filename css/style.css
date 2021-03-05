@@ -457,7 +457,7 @@ article ol {
     line-height: 24px;
 }
 .info a {
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 .one-off {
     font-size:40px;
@@ -494,10 +494,19 @@ nav a {
     position: relative;
 }
 }
-@media screen and (max-width:321px) {
+@media screen and (max-width:360px) {
 .banner h1 {
     padding-top: 18px;
     font-size: 3rem;
 } 
+}
+@media screen and (max-width:310px) {
+.banner h1 {
+    padding-top: 36px;
+    font-size: 2rem;
+} 
+.sub-text {
+    font-size: 1.5rem;
+}
 }
 
