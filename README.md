@@ -1,6 +1,6 @@
 # <u>Milestone Project 1</u>
 
-![site screenshot](images/screenshot3.png)
+![site screenshot](assets/images/screenshot3.png)
  
 
 ## [Link to live site 'Tonight I Fancy..'](https://jamiewilson2000.github.io/MS1TonightIFancy/)
@@ -65,7 +65,7 @@ This led me to thinking how handy it would be if there was a website (and I know
 
 ## Wireframes
 
-![wireframe collection](wireframes/wireframe.png)
+![wireframe collection](assets/wireframes/wireframe.png)
 
 - Above is a summary of the wireframes for this site (The desktop view). The basis of the site is very simple. One main landing page, one structure for the page that will contain the recipes (content will change but the structure remains the same), and one contact form page. Below are the links to the full images and their respective mobile views.
 
@@ -79,18 +79,18 @@ This led me to thinking how handy it would be if there was a website (and I know
 - [Link to contact form page tablet view](https://share.balsamiq.com/c/8nzk9FAJzCtPk5EaJGdKb6.png)
 - [Link to contact form page mobile view](https://share.balsamiq.com/c/h6MeRkABov439RS5VxLrD4.png)
 
-![Wireframe_showing_desktop_to_mobile_view](wireframes/wireframedesktomob.png)
+![Wireframe_showing_desktop_to_mobile_view](assets/wireframes/wireframedesktomob.png)
 
 - As you can see from the image above, the biggest transition will be how the landing page translates to the mobile view. I opted for a simple collage of the menu options, (a) to add color and interest to the screen and (b) to give an immediate visual representation of whats on offer 
-- There are the 3 wireframes which I planned to use within the site. As stated before, very plain, straightforward design to get the user to their required purpose with minimal fuss or confusion.
+- There are 3 wireframes which I planned to use within the site. As stated before, very plain, straightforward design to get the user to their required purpose with minimal fuss or confusion.
 - My original plan was to have the 5 cards in desktop view maintain visibility throughout into mobile views but I felt that it became too cluttered so I opted that once reaching a lower resolution, they should "collapse" into a dropdown menu bar, still with active links directing the user to their required purpose. A collage image should be present giving a visual representation of the dishes on offer. 
 - My original plan for the recipe pages was to have an image of the dish on offer at the forefront of the page but I wasn't content that an image would be enough so I opted to have tutorial videos of each dish, offering a walkthrough of how to prepare the dish. I felt that this makes for a more enticing approach when dealing with food.
 - My original plan for the social links in the footer was to use the written word rather than the usual icon approach, however after having the option reviewed by my family members the general concensus was to stick with what people expect to see which is the social icons. Also, this gives the site a small element of global appeal for those that don't speak english as they will still recognise the icons. 
 
 ## Colour Schemes
 
-<img src="images/colorscheme1.png" alt="colorscheme" width="500" height="197">
-<img src="images/contrast check.png" alt="contrastcheck" width="480" height="197">
+<img src="assets/images/colorscheme1.png" alt="colorscheme" width="500" height="197">
+<img src="assets/images/contrastcheck.png" alt="contrastcheck" width="480" height="197">
 
 - The color scheme I chose was one through personal preferences. I personally would associate a wine color with food so I felt that the scheme would suit the site content appropriately. I ran a contrast check on the two colours representing body and text and returned a 4/5 star rating so I was happy to go on ahead.
 - I adopted:
@@ -113,10 +113,10 @@ This led me to thinking how handy it would be if there was a website (and I know
 
 - For the textual elements I imported in two font familys from Google Fonts.
 
-    - ![Main Font](images/font1.png)
+    - ![Main Font](assets/images/font1.png)
     - Cormorant Garamond is used throughout as the brand text.
 
-    - ![Secondary Font](images/font2.png)
+    - ![Secondary Font](assets/images/font2.png)
     - Shippori Mincho is used in the larger bodys of text.
 
     
@@ -180,10 +180,10 @@ This led me to thinking how handy it would be if there was a website (and I know
     - Fontawesome
     - Google Fonts: 'Cormorant Garamond' and 'Shippori Mincho'
 
-- For the menu cards (index.html line 36 - 72) I used the card component element from [Bootstrap Card componant](https://getbootstrap.com/docs/4.2/components/card/)4.2.1 and adjusted the styling and use of the element to fit within my sites environment. Example of one card shown here:
+- For the menu cards (index.html line 36 - 72) I used the card component element from [Bootstrap Card componant](https://getbootstrap.com/docs/4.2/components/card/) 4.2.1 and adjusted the styling and use of the element to fit within my sites environment. Example of one card shown here:
 
         <div class="card">
-            <img class="card-img-top" src="images/curry.png" alt="chicken">
+            <img class="card-img-top" src="assets/images/curry.png" alt="chicken">
             <div class="card-body">
                 <a href="chicken.html" class="btn btn-primary"><span class="text">Spicy Chicken Curry!</span></a>
             </div>
@@ -203,7 +203,7 @@ This led me to thinking how handy it would be if there was a website (and I know
             </div>
         </div>
 
-- For the Contact Form (contact.html) I adopted a form style element from [Bootstrap Form Groups](https://getbootstrap.com/docs/4.2/components/forms/#form-groups)4.2.1 and adjusted the elements and styling to fit within my sites environment. Example shown here:
+- For the Contact Form (contact.html) I adopted a form style element from [Bootstrap Form Groups](https://getbootstrap.com/docs/4.2/components/forms/#form-groups) 4.2.1 and adjusted the elements and styling to fit within my sites environment. Example shown here:
 
         <div class="contact-form">
             <form>
@@ -284,6 +284,18 @@ This led me to thinking how handy it would be if there was a website (and I know
 
 - From this point on you can type in and access your site on any device with an internet browser which is ideal for testing purposes.
 
+## For those wishing to develop the site further using a repository clone:
+- You must first ensure that you have a current Github account.
+- Be running the most up to date version of Google Chrome with the Gitpod browser extension installed.
+- Login to Github with your own github account.
+- Navigate to the Project Github Repository page.
+- Click the New button, this will trigger a new workspace.
+- Under Create a new Repository select Import a Repository
+- Now, in the Your Old Repository Clone URL field, type in "https://github.com/JamieWilson2000/MS1TonightIFancy.git"
+- Enter in a new relevant repository name and click Begin Import.
+- After a short while you'll recieve a message saying that the new repository is ready with a link to take you to it.
+- From here on, open gipod and continue future developments.  
+
 # Methods of Testing
 
 - Throughout the development stage I used a handful of methods to ensure the site looked and acted appropriately.<br> These included:
@@ -316,9 +328,9 @@ This led me to thinking how handy it would be if there was a website (and I know
     - The user felt the tutorial videos reaching the full width of the screen was too overpowering for the page and even prevented the user from knowing there was more content below.
         - As a result of this feedback I reduced the size of the tutorial videos to be inline with other elements on the page.
 
-    Example 1 <img src="images/screenshot.png" alt="originalscreenshot" width="400px">
+    Example 1 <img src="assets/images/screenshot.png" alt="originalscreenshot" width="400px">
     <br>
-    Example 2 <img src="images/screenshot3.png" alt="finishedscreenshot" width="375px">
+    Example 2 <img src="assets/images/screenshot3.png" alt="finishedscreenshot" width="375px">
 
     
     - Overall the user testing was a positive affair. The user was able to grasp the intentions of the site, with minimal effort was able to browse through the menu options, accessed the external links to visit the contributors webpages, and generally felt the sites purpose was acheived in an enjoyable manner. The user felt that the site was perhaps more suited to a mobile premise which I took on board. In the real-world environment the majority of the sites users would be accessing it on mobile devices rather than on desktops.
@@ -371,7 +383,7 @@ This led me to thinking how handy it would be if there was a website (and I know
 
 - My final audit from Google lighthouse read a respectable<br>
 <br>
-<img src="images/lighthouseresult.png" alt="font1" width="30%" height="30%">
+<img src="assets/images/lighthouseresult.png" alt="font1" width="30%" height="30%">
 
 # Credits
 
@@ -409,13 +421,14 @@ This led me to thinking how handy it would be if there was a website (and I know
 - https://www.w3schools.com
 - https://stackoverflow.com/
 - https://css-tricks.com/
-- blog.theodo.com/2018/01/responsive-iframes-css-trick/
+- https://blog.theodo.com/2018/01/responsive-iframes-css-trick/
 
 
 # Acknowledgement
 
-- I would like to thank Code Institute for the knowledge and the motivation shown to me up to this point. I would also like to thank my mentor Gurjot Singh for his advice in completing this project. As a  complete newbie to coding I am so proud that thanks to CI I have the ability to acheive this creation. I look forward to the rest of the course and a new future career.
+- I would like to thank Code Institute for the knowledge and the motivation shown to me up to this point. I would also like to thank my mentor Gurjot Singh for his advice in completing this project. As a  complete newbie to coding I am so proud that thanks to CI I have the ability to acheive this creation. I look forward to the rest of the course and a new future career.<br>
 
+** Apologies for the use of the < img > attributes in lines 92, 93, 331, 333 and 386. I found it difficult to control the sizes of the images using the markdown language but had a clear vision of what I wanted to acheive. Where possible I stuck to the requirements of using the markdown language.
 
 # - [Back to top](#contents)
 
