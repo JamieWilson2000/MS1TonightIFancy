@@ -320,11 +320,34 @@ This led me to thinking how handy it would be if there was a website (and I know
     Example 2 <img src="images/screenshot3.png" alt="finishedscreenshot" width="375px">
 
     
-    -Overall the user testing was a positive affair. The user was able to grasp the intentions of the site, with minimal effort was able to browse through the menu options, accessed the external links to visit the contributors webpages, and generally felt the sites purpose was acheived in an enjoyable manner. The user felt that the site was perhaps more suited to a mobile premise which I took on board. In the real-world environment the majority of the sites users would be accessing it on mobile devices rather than on desktops.
+    - Overall the user testing was a positive affair. The user was able to grasp the intentions of the site, with minimal effort was able to browse through the menu options, accessed the external links to visit the contributors webpages, and generally felt the sites purpose was acheived in an enjoyable manner. The user felt that the site was perhaps more suited to a mobile premise which I took on board. In the real-world environment the majority of the sites users would be accessing it on mobile devices rather than on desktops.
 
-    - To increase performance it was suggested to use a < link > attribute when accessing external fonts instead of the @import option that I had currently used, so I implemented the advice.
-    -  There were a couple of mis-matched or missing tags that I was able to fix with no problem.
-    - I had inserted 'paragraph' breaks within the recipe pages that I had imported in from Fontawesome, these were problematic because I hadn't them inserted into the code correctly (I had not placed them inside the < li > tags). 
+    ## Bugs and problems I experienced along way
+
+    - In all honesty I experienced a lot of bugs and problems along the way which I am disappointed and ashamed to admit that I did not log. As they arose I dealt with them, either through logical retracking of steps, re-adjustment to previously changed code, reviewing a previous module again, or to consult one of the many fantastic coding help sites online to try and figure out what was going on. I also adopted the approach to code with caution. Add code/styling and check immediately for negative effects, in the event of a negative effect, reverse or remove said code and approach the task differently. Also, I ran all the code through the html and the css validators on a regular basis so in the event of a piece of rogue code cropping up, I was able to rectify the problem before it potentially made matters worse.
+    I have listed below a couple of recent problems that arose towards the end of the writing and testing phase 
+
+    - To add interest to the Ingredient and Method sections of the recipe page I wanted to add an icon to break up the text, this I did using an icon I gained from the Fontawesome site. Upon running the code through the html validator it came to my attention that I had nested a non-list item inside an unordered list which was deeming my code to show up with errors. To fix this I simply nested the icon inside of a < li > tag for the icon to essentially be read as a list item.
+
+                    <li><span><i class="fa fa-pagelines" aria-hidden="true"></i></span></li>
+    
+    - For the clickable ingredient items I was reluctant to use Bootstrap buttons and opted for simple < a > attributes styled to resemble buttons,
+
+            <a href="chicken.html"><span class="highlight">Chicken</span></a>
+
+        however, this caused me problems with text spilling out of the styled areas at different resolutions. This I resolved by adjusting the left and right padding at different points of the mobile styling.
+
+    - To increase performance in Google Lighthouse it was suggested to use a < link > attribute when accessing external fonts instead of the @import option that I had currently used, so I implemented the advice and my overall performance increased.<br>
+    Before:
+
+            @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,500&display=swap');
+            
+        After:  
+
+            <link rel="preconnect" href="https://fonts.gstatic.com">
+            <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,500&display=swap" rel="stylesheet">   
+    
+    - Something I noticed in the testing stage was when accessing my site through the Slack community app on my Samsung A50 mobile phone, the colors were completely different to my chosen color scheme. This caused me to re-evaluate and try to emulate this effect on the laptop using different browsers (Chrome and Mozilla) and on my Fire HD tablet with it's built in browser (Silk), and finally on an Apple Ipad and iPhone (Safari). On every device the colors ran true apart from on the Samsung. I eventually tried opening my link in Chrome on the Samsung mobile and the colors were correct, this is a matter I had no answer for but a lesson learned for the future.
 
 
 - Towards the end of the creative process I began to regularly push any changes made to the live site so I was able to test the site on:
@@ -351,26 +374,46 @@ This led me to thinking how handy it would be if there was a website (and I know
 
 # Credits
 
-Throughout the creation of this project I have referred to the following for assistance:
+## Credits for each dish:
 
-- Coding hints, tips, tricks, and advice:
-    - https://codeinstitute.net/
-    - https://www.w3schools.com
-    - https://stackoverflow.com/
-    - https://css-tricks.com/
-    - blog.theodo.com/2018/01/responsive-iframes-css-trick/
+## Chicken Curry
+- Image - https://hips.hearstapps.com/del.h-cdn.co/assets/17/31/1501791674-delish-chicken-curry-horizontal.jpg?crop=1.00xw:0.750xh;0,0.159xh&resize=1200:*
+- Recipe - https://www.delish.com/cooking/recipe-ideas/recipes/a54696/easy-indian-chicken-curry-recipe/
+- Tutorial Video - https://www.youtube.com/watch?v=MmU1sXsnp3s 
 
-- Images and videos used throughout this project have been sourced from:
+## Tasty Lamb with Pesto
+- Image - https://gbc-cdn-public-media.azureedge.net/img13079.768x512.jpg
+- Recipe - https://www.greatbritishchefs.com/recipes/lamb-pesto-recipe
+- Tutorial Video - https://www.youtube.com/watch?v=qGVUBq5jzZg
 
-    - https://www.delish.com
-    - https://www.foodiewithfamily.com
-    - https://www.greatbritishchefs.com
-    - https://www.thekitchn.com
-    - https://www.youtube.com
+## Sticky Pork
+- Image - https://www.foodiewithfamily.com/wp-content/uploads/2015/07/Easy-Garlic-Ginger-Sticky-Glazed-Pork-3-680x453.jpg
+- Recipe - https://www.foodiewithfamily.com/easy-garlic-ginger-glazed-sticky-pork/
+- Tutorial Video - https://www.youtube.com/watch?v=tBOJRlkXmao
 
-- Acknowledgement
+## The Perfect Steak
+- Image - https://cdn.apartmenttherapy.info/image/upload/f_auto,q_auto:eco,c_fit,w_730,h_487/k%2Farchive%2F2816f86937ebc7019a513d858cec8e0c55d38890
+- Recipe - https://www.delish.com/cooking/recipe-ideas/a30326606/grilled-hanger-steak-recipe/
+- Tutorial Video - https://www.youtube.com/watch?v=46eRIxVxkG8
 
-    - I would like to thank Code Institute for the knowledge and the motivation shown to me up to this point. I would also like to thank my mentor Gurjot Singh for his advice in completing this project. As a  complete newbie to coding I am so proud that thanks to CI I have the ability to acheive this creation. I look forward to the rest of the course and a new future career.
+## Vegetarian Stuffed Shells
+- Image - https://assets.epicurious.com/photos/5be1c1bf587ad42d4b37c134/6:4/w_620%2Ch_413/Vegetarian-Skillet-Stuffed-Shells-01112018.jpg
+- Recipe - https://www.epicurious.com/recipes/food/views/vegetarian-skillet-stuffed-shells
+- Tutorial Video - https://www.youtube.com/watch?v=z1EzYPa6Qy4
+
+
+## Throughout the creation of this project I have referred to the following for assistance and guidance:
+
+- https://codeinstitute.net/
+- https://www.w3schools.com
+- https://stackoverflow.com/
+- https://css-tricks.com/
+- blog.theodo.com/2018/01/responsive-iframes-css-trick/
+
+
+# Acknowledgement
+
+- I would like to thank Code Institute for the knowledge and the motivation shown to me up to this point. I would also like to thank my mentor Gurjot Singh for his advice in completing this project. As a  complete newbie to coding I am so proud that thanks to CI I have the ability to acheive this creation. I look forward to the rest of the course and a new future career.
 
 
 # - [Back to top](#contents)
