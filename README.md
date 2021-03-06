@@ -317,6 +317,7 @@ This led me to thinking how handy it would be if there was a website (and I know
         - As a result of this feedback I reduced the size of the tutorial videos to be inline with other elements on the page.
 
     Example 1 <img src="images/screenshot.png" alt="originalscreenshot" width="400px">
+    <br>
     Example 2 <img src="images/screenshot3.png" alt="finishedscreenshot" width="375px">
 
     
